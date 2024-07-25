@@ -10,7 +10,7 @@
     <!-- Favicon -->
     <!-- <link href="img/favicon.ico" rel="icon" /> -->
 
-    <!-- Google Web Fonts -->
+    <!-- Google Web Fonts --> 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
@@ -33,7 +33,10 @@
 
   <body data-spy="scroll" data-target=".navbar" data-offset="51">
     
-    <audio controls autoplay src="img/audio.mp3" style="display: none"></audio>
+    <audio id="audio" autoplay style="display: none;">
+      <source src="img/audio.mp3" type="audio/mp3">
+      Browser Anda tidak mendukung elemen audio.
+  </audio>
     <!-- Navbar Start -->
     <nav
       class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5"
